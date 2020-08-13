@@ -6,6 +6,7 @@
 pub mod console;
 pub mod dialog;
 pub mod fetch;
+pub mod geolocation;
 pub mod interval;
 pub mod keyboard;
 pub mod reader;
@@ -20,6 +21,8 @@ pub use self::console::ConsoleService;
 #[doc(inline)]
 pub use self::dialog::DialogService;
 pub use self::fetch::FetchService;
+#[doc(inline)]
+pub use self::geolocation::GeolocationService;
 #[doc(inline)]
 pub use self::interval::IntervalService;
 #[doc(inline)]
